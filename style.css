@@ -2,17 +2,17 @@ html{
   background-color: #c4efe7;
 }
 
-#container{
+body {
   font-size: 50px;
   text-align: center;
-  position: relative;
-  left: 40%;
-  top: 130px;
+
+  margin: auto auto;
+  padding: 50px 100px 50px 100px;
 }
 
 #startText{
   color: #4b97d9;
-  width: 300px;
+  width: 600px;
 }
 
 #button{
@@ -20,6 +20,4 @@ html{
   color: white;
   padding: 0.5rem;
   width: 190px;
-  position: relative;
-  left: 45px;
 }
