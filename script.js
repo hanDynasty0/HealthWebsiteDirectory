@@ -1,3 +1,3 @@
 document.getElementById("button").onclick = function(){
-  window.location.href = "healthSite1.html";
+  window.location.href = "cookingSite.html";
 }
