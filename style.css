@@ -3,15 +3,22 @@ html{
 }
 
 #container{
+  font-size: 50px;
+  text-align: center;
   position: relative;
-  
+  left: 35%;
 }
 
 #startText{
-  color: #2c974e;
+  color: #4b97d9;
+  width: 300px;
 }
 
 #button{
-  background-color: #4b97d9;
+  background-color: #9B4FD9;
   color: white;
+  padding: 0.5rem;
+  width: 190px;
+  position: relative;
+  left: 45px;
 }
