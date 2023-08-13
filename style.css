@@ -2,6 +2,11 @@ html{
   background-color: #c4efe7;
 }
 
+#container{
+  position: relative;
+  
+}
+
 #startText{
   color: #2c974e;
 }
