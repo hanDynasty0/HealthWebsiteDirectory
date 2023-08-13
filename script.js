@@ -9,10 +9,5 @@ const sites = [
 document.getElementById("button").onclick = function(){
   var i = Math.floor(Math.random()*sites.length);
   var site = sites[i];
-  while(site == LocalStorage.prev){
-    i = Math.floor(Math.random()*sites.length);
-    site = sites[i];
-  }
-  LocalStorage.prev = site;
   window.location.href = site;
 }
