@@ -45,7 +45,7 @@ document.getElementById("button").onclick = function(){
   var site = sites[i];
   window.location.href = site;
 }
-document.querySelectorAll("#fact").onclick = function(){
-  var i = Math.floor(Math.random()*facts.length);
+document.querySelectorAll("#fact, #info").onclick = function(){
+  i = Math.floor(Math.random()*facts.length);
   document.getElementById("info").innerHTML = facts[i];
 }
