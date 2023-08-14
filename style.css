@@ -1,5 +1,5 @@
 html{
-  background-color: #c4efe7;
+  background-color: #FDF5DF;
 }
 body {
   font-size: 30px;
@@ -8,7 +8,7 @@ body {
   padding: 50px 100px 50px 100px;
 }
 #fact{
-  background-color: #4b97d9;
+  background-color: #F92C85;
   color: white;
   padding: 20px;
   width: 1000px;
@@ -25,7 +25,7 @@ body {
 }
 
 #button{
-  background-color: #9B4FD9;
+  background-color: #F92C85;
   color: white;
   width: 190px;
   margin: auto auto;
