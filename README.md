@@ -1,2 +1,2 @@
-# HealthyUselessWeb
+# HealthWebsiteDirectory
 RecessHacks Project
