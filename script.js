@@ -25,9 +25,9 @@ const facts = [
   "Cooking with friends can increase social connection, and mastering a dish or recipe can boost self-esteem."
 ]
 
-var i = Math.floor(Math.random()*facts.length);
+var factIndex = Math.floor(Math.random()*facts.length);
 
-document.getElementById("info").innerHTML = facts[i];
+document.getElementById("info").innerHTML = facts[factIndex];
   
 const sites = [
   "https://musclewiki.com/",
@@ -42,15 +42,15 @@ const sites = [
   "https://basicswithbabish.co/episodes"
 ]
 document.getElementById("button").onclick = function(){
-  var site = sites[i];
-  window.location.href = site;
+  var siteIndex = Math.floor(Math.random()*sites.length);
+  window.location.href = sites[siteIndex];
 }
 document.getElementById("fact").onclick = function(){
-  i = Math.floor(Math.random()*facts.length);
-  document.getElementById("info").innerHTML = facts[i];
+  factIndex = Math.floor(Math.random()*facts.length);
+  document.getElementById("info").innerHTML = facts[factIndex];
 }
 
 document.getElementById("info").onclick = function(){
-  i = Math.floor(Math.random()*facts.length);
-  document.getElementById("info").innerHTML = facts[i];
+  factIndex = Math.floor(Math.random()*facts.length);
+  document.getElementById("info").innerHTML = facts[factIndex];
 }
